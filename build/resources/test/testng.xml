@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Some suite" verbose="1">
+    <test name="Regression suite 2">
+        <parameter name="random1" value = "123"/>
+        <parameter name="random2" value = "321"/>
+        <classes>
+            <class name="demo.TestClassTwo"></class>
+        </classes>
+    </test>
+</suite>

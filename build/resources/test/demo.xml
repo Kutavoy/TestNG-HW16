@@ -1,0 +1,17 @@
+
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="One more suite" verbose="1">
+    <test name="Regression suite 1">
+        <groups>
+            <run>
+                <include name="read"></include>
+                <exclude name="think"></exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="demo.TestClassOne"></class>
+        </classes>
+    </test>
+</suite>
